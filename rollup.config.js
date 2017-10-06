@@ -1,7 +1,7 @@
 import nodeResolve from 'rollup-plugin-node-resolve';
 
 export default {
-  entry: 'src/browser-es-module-loader.js',
+  entry: 'src/index.js',
   format: 'umd',
   moduleName: 'BrowserESModuleLoader',
   dest: 'dist/browser-es-module-loader.js',
